@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/ffff.jpg');
+    background-size: 100%;
+    color: white !important;
+    background-attachment: fixed;
+}
+section {
+    height: 700px;
+}
+
+/*  table part*/
+h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.table-responsive{
+    width: 60%;
+    min-width: 600px;
+    margin-left: 20%;
+}
+.text-danger{
+    color: white !important;
+    background-color: rgba(255,169,174,0.31) ;
+    cursor: pointer;
+}
+td.count{
+    padding: 0!important;
+}
+input[type=number].input_{
+    background-color: rgba(255,255,255,0.2);
+    color:white!important;
+    width: 100%;
+    margin: 0;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#right_td{
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgba(17,133,31,0.5) ;
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: url("../ffff.jpg");
+    background-size: 100%;
+}
+.grid_parent{
+    overflow: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    height: 100%;
+}
+.item{
+    padding: 10px;
+    margin: 15px;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255,255,255,0.45);
+    max-height:400px;
+    min-height: 200px;
+    width:25%;
+    min-width: 400px;
+    position: relative;
+}
+.item .photo{
+    margin-right: 10px;
+    height: 300px;
+    float: left;
+    width:35%;
+}
+.item .photo:hover{
+    cursor: pointer;
+    max-width:330px;
+}
+.about{
+    float: right;
+}
+span{
+    background-color: #4CAF50;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.icon{
+    max-height: 30px;
+    max-width: 30px;
+    cursor: pointer;
+}
+
+
+/*   admin part  */
+#add{
+    height: 100%;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.add_label{
+    color: #292c2f;
+    text-align: center;
+}
+form#add{
+    align-content: center;
+}
+input[type=text],input[type=number], textarea{
+    color: black !important;
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+    background: #f1f1f1;
+    border: none;
+}
+input[type=submit]{
+    color: black;
+    font-size:20px;
+    padding:0 20px 0 20px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.45);
+    cursor: pointer;
+    display: block;
+}
+form#add_img{
+    margin-top: 200px;
+}
+input[type=file]#add_img{
+    margin-top: 200px;
+}
+input[type=submit].del{
+    font-size:12px;
+    background-color: rgba(255,47,76,0.4);
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+
+/*.sidenav {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+*/
